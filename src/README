@@ -1,0 +1,36 @@
+files description
+
+This is all the codes for the project
+Group 4: Xiaoyu Wan, Yonghao Duan, Yu Sun
+
+Code reference1: https://www.kaggle.com/ratthachat/aptos-eye-preprocessing-in-diabetic-retinopathy
+Code reference2: https://www.kaggle.com/leighplt/densenet121-pytorch
+Code reference3: https://www.kaggle.com/abhishek/pytorch-inference-kernel-lazy-tta
+Code reference4: https://www.kaggle.com/mikelkl/43th-place-top2-solution-stacking-inference
+Code reference5: https://www.kaggle.com/chanhu/eye-efficientnet-pytorch-lb-0-777
+
+1. train_test_split_Straified_CV.ipynb
+(1.split 2015 dataset and 2019 dataset into five stratified folds
+(2. obtain absolute path for each image and so that they can be used easily for processes of triaining and testing
+
+2. balancedData_transformVIsilization.ipynb
+(1. to combine a balanced dataset by combining 2015 dataset and 2019 dataset. 
+(2. visualize transforms methods by looking at different images 
+
+3. diabetic-retinopathy-eda.ipynb
+EDA 
+
+4. baseline-resnet101-vanilla.ipynb
+train resnet101 model
+
+5. DenseNetTrain.py
+train densenet model
+
+6. DenseNetTest.ipynb
+test model trained from DenseNet
+
+7. training_part.py
+train efficientNet using different datasets and obtain best models used for testing part 
+
+8. testing_part.ipynb
+used to test best model and the result can be obtained by submiting result in kaggle 
